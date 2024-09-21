@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.biaoqian {
+    display: flex;
+    align-items: center;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.biaoqian img {
+    margin-right: 10px;
+}
+    
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero-slideshow-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero-slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+#hero-slideshow-container img:first-child {
+    display: block;
+}
+
+#about,
+#products,
+#enterprise-intro,
+#video-center,
+#contact {
+    padding: 50px;
+}
+
+#about h3,
+#products h3,
+#enterprise-intro h3,
+#video-center h3,
+#contact h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: #b6b6b6;
+    color: #3e3e3e;
+}
+
+.product-slideshow-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+#product-slideshow-container1,
+#product-slideshow-container2,
+#product-slideshow-container3 {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#product-slideshow-container1 img,
+#product-slideshow-container2 img,
+#product-slideshow-container3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+#product-slideshow-container1 img:first-child,
+#product-slideshow-container2 img:first-child,
+#product-slideshow-container3 img:first-child {
+    display: block;
+}
+
+.side-by-side-sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+#enterprise-intro,
+#video-center {
+    width: 48%; /* 可以根据实际情况调整这个宽度值 */
+}
+
+video {
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00bbff;
+    color: #010003;
+}
+
+.contact-info,
+.contact-form {
+    width: 45%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.image-with-text img {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+}
